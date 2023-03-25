@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{963e1126-1370-4568-b331-2874ebbab7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{73a9240a-23fa-4431-9dcb-cac127b79c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{bf37e666-ea72-4560-b2c8-d9152621f3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models">
+      <UniqueIdentifier>{414e52bb-e8b4-4943-b911-07f461197152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\use_case">
+      <UniqueIdentifier>{cf0fd9ab-1910-4702-9749-198bf76a4a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{e7bc493b-de6a-4e8a-b079-8e04542d340f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screens">
+      <UniqueIdentifier>{afa765b9-7d50-48b2-bc8f-37079d19f9aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application_library.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservoir.h">
+      <Filter>Domain\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservoirProvaider.h">
+      <Filter>Domain\use_case</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens.h">
+      <Filter>Presentation\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
